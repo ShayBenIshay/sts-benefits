@@ -1,0 +1,92 @@
+/* STS Benefits – Admin Dashboard & Settings */
+
+.stsb-admin-wrap {
+	direction: rtl;
+	font-family: Arial, sans-serif;
+	max-width: 1100px;
+}
+
+.stsb-page-title {
+	font-size: 1.6rem;
+	font-weight: 700;
+	color: #1d2327;
+	margin-bottom: 24px;
+	border-bottom: 2px solid #c4a882;
+	padding-bottom: 10px;
+}
+
+/* Stat cards */
+.stsb-stats-row {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+	margin-bottom: 32px;
+}
+
+.stsb-stat-card {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 24px 28px;
+	min-width: 180px;
+	flex: 1;
+	text-align: center;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.stsb-stat-value {
+	font-size: 2rem;
+	font-weight: 700;
+	color: #2271b1;
+	margin-bottom: 6px;
+}
+
+.stsb-stat-label {
+	font-size: 0.875rem;
+	color: #666;
+}
+
+/* Orders table */
+.stsb-orders-table-wrap {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 20px;
+	margin-bottom: 24px;
+}
+
+.stsb-orders-table-wrap h2 {
+	margin-top: 0;
+	font-size: 1.1rem;
+	color: #1d2327;
+}
+
+.stsb-orders-table th,
+.stsb-orders-table td {
+	text-align: right;
+}
+
+/* Settings table */
+.stsb-settings-table th {
+	text-align: right;
+	padding-right: 0;
+	width: 220px;
+}
+
+.stsb-settings-table td {
+	padding-right: 0;
+}
+
+/* Footer link */
+.stsb-footer-link {
+	margin-top: 16px;
+}
+
+.stsb-footer-link a {
+	color: #2271b1;
+	text-decoration: none;
+}
+
+.stsb-footer-link a:hover {
+	text-decoration: underline;
+}

@@ -1,0 +1,95 @@
+/* STS Benefits – Storefront Popup (Pitbull Petshop design system) */
+
+.stsb-popup-overlay {
+	display: none;
+	position: fixed;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 99999;
+	align-items: center;
+	justify-content: center;
+	direction: rtl;
+}
+
+.stsb-popup-overlay.stsb-visible {
+	display: flex;
+}
+
+.stsb-popup {
+	background: #fff;
+	border-radius: 8px;
+	padding: 2.5rem 2rem 2rem;
+	max-width: 420px;
+	width: 90%;
+	text-align: center;
+	position: relative;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	animation: stsb-pop-in 0.25s ease-out;
+	font-family: "Fredoka", sans-serif;
+}
+
+@keyframes stsb-pop-in {
+	from { opacity: 0; transform: scale(0.9); }
+	to   { opacity: 1; transform: scale(1); }
+}
+
+.stsb-popup-close {
+	position: absolute;
+	top: 12px;
+	left: 14px;
+	background: none;
+	border: none;
+	font-size: 20px;
+	line-height: 1;
+	color: #2a8c8d;
+	cursor: pointer;
+	padding: 0;
+	transition: opacity 0.2s;
+}
+
+.stsb-popup-close:hover {
+	opacity: 0.7 !important;
+}
+
+.stsb-popup-icon {
+	font-size: 48px;
+	margin-bottom: 0.75rem;
+}
+
+.stsb-popup .stsb-popup-title {
+	font-family: "Fredoka", sans-serif !important;
+	font-size: 1.75rem !important;
+	font-weight: 600 !important;
+	color: #2a8c8d !important;
+	margin: 0 0 0.75rem !important;
+	line-height: 1.2 !important;
+}
+
+.stsb-popup .stsb-popup-body {
+	font-family: "Alef", sans-serif !important;
+	font-size: 1.125rem !important;
+	color: #2a8c8d !important;
+	margin: 0 0 1.5rem !important;
+	line-height: 1.6 !important;
+}
+
+.stsb-popup-btn {
+	display: inline-block;
+	background: #ccb87a;
+	color: #fff !important;
+	font-family: "Fredoka", sans-serif;
+	font-size: 1.1rem;
+	font-weight: 500;
+	padding: 0.6rem 2rem;
+	border-radius: 2rem;
+	text-decoration: none;
+	transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
+	border: 2px solid #ccb87a;
+}
+
+.stsb-popup-btn:hover {
+	background: #fff !important;
+	color: #2a8c8d !important;
+	border-color: #2a8c8d !important;
+	opacity: 1 !important;
+}
