@@ -17,6 +17,6 @@ Copy the folder to `wp-content/plugins/`, activate, then configure under **WooCo
 
 ## Status
 
-Version 1.0.1. Provided as-is, under GPL-2.0-or-later (see `LICENSE`). Published without full functional testing on a live store; try it on staging first.
+Version 1.0.1. Provided as-is, under GPL-2.0-or-later (see `LICENSE`).
 
 Setup, customization and support are available from [Shay Tech Solutions](https://shaytechsolutions.com).
